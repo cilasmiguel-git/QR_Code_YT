@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/QR_Code_YT.git/static/css/main.5b3d1f34.css",
+    "main.js": "/QR_Code_YT.git/static/js/main.d8b930b4.js",
+    "static/js/787.989e5d78.chunk.js": "/QR_Code_YT.git/static/js/787.989e5d78.chunk.js",
+    "index.html": "/QR_Code_YT.git/index.html",
+    "main.5b3d1f34.css.map": "/QR_Code_YT.git/static/css/main.5b3d1f34.css.map",
+    "main.d8b930b4.js.map": "/QR_Code_YT.git/static/js/main.d8b930b4.js.map",
+    "787.989e5d78.chunk.js.map": "/QR_Code_YT.git/static/js/787.989e5d78.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b3d1f34.css",
+    "static/js/main.d8b930b4.js"
+  ]
+}
