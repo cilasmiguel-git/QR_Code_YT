@@ -21,12 +21,12 @@ const Card = () => {
         }
     }
     return (
-        <form className="form" onSubmit={getQRcode}>
-            <h1 className="title">QR Code Generator</h1>
-            <input type="text" className="input" value={input} onChange={(e) => setInput(e.target.value)} required  placeholder='Enter Url or Text'/>
-            {isLoading && <div className='loading'><span></span>Loading...</div>}
-            {!isLoading && (qr ? <img className='qr_code' src={qr} alt="qr_code"></img> : <div className='loading'>Generate Amazing QR for you...</div>)}
-            <input type="submit" className='submit' value="Generate QR Code"/>
+        <form className="form" onSubmit={getQRcode} translate="no">
+            <h1 className="title" translate="no">QR Code Generator</h1>
+            <input type="text" className="input" value={input} onChange={(e) => setInput(e.target.value)} required  placeholder='Enter Url or Text' translate="no"/>
+            {isLoading && <div className='loading' translate="no"><span></span>Loading...</div>}
+            {!isLoading && (qr ? <img className='qr_code' src={qr} alt="qr_code" translate="no"></img> : <div className='loading' translate="no">Generate Amazing QR for you...</div>)}
+            <input type="submit" className='submit' value="Generate QR Code" translate="no"/>
         </form>
     )
 }
