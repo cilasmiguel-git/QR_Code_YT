@@ -19,7 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://cilasmiguel-git.github.io/QR_Code_YT",
+  
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -40,5 +40,6 @@
   },
   "devDependencies": {
     "gh-pages": "^5.0.0"
-  }
+  },
+  "homepage": "https://cilasmiguel-git.github.io/QR_Code_YT"
 }
